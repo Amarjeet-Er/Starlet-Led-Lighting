@@ -573,7 +573,7 @@ progress {
 }
 
 .display-8 {
-    font-size: calc(1.375rem + 1.5vw);
+    font-size: calc(10px + 1.5vw);
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
 }
