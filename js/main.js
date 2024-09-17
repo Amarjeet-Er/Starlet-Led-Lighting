@@ -106,12 +106,15 @@
     });
 
     $(document).ready(function () {
-        $(".team-carousel").owlCarousel({
-            loop: true,
+        $('.owl-carousel').owlCarousel({
             margin: 10,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 3000,
+            dots: false,
+            loop: true,
+            nav: false,
+            navText: [
+                '<i class="bi bi-chevron-left"></i>',
+                '<i class="bi bi-chevron-right"></i>'
+            ],
             responsive: {
                 0: {
                     items: 1

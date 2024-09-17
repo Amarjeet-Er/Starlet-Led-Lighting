@@ -572,6 +572,18 @@ progress {
     }
 }
 
+.display-8 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+    .display-8 {
+        font-size: 15px;
+    }
+}
+
 .list-unstyled {
     padding-left: 0;
     list-style: none
@@ -3862,7 +3874,7 @@ fieldset:disabled .btn {
     z-index: 1000;
     display: none;
     min-width: 10rem;
-    padding: .5rem 0;
+    /* padding: .5rem 0; */
     margin: 0;
     font-size: 1rem;
     color: #52565b;
@@ -4130,27 +4142,27 @@ fieldset:disabled .btn {
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: .25rem 1rem;
+    padding: 10px;
     clear: both;
     font-weight: 400;
     color: #212529;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;
-    border: 0
+    border-bottom: 1px solid gray;
 }
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #1e2125;
-    background-color: #e9ecef
+    color: #fff;
+    background-color: #06BBCC;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #06BBCC
+    background-color: #06BBCC;
 }
 
 .dropdown-item.disabled,
@@ -8257,6 +8269,7 @@ fieldset:disabled .btn {
 .text-center {
     text-align: center !important
 }
+
 .text-justify {
     text-align: justify !important
 }
@@ -8384,6 +8397,10 @@ fieldset:disabled .btn {
 
 .bg-dark {
     background-color: #181d38 !important
+}
+
+.bg-dark-foot {
+    background-color: #12252e !important
 }
 
 .bg-body {

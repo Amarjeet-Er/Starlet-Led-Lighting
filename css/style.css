@@ -1,3 +1,26 @@
+/* custom */
+.whatsapp-icon {
+    position: fixed;
+    bottom: 28px;
+    right: 30px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    z-index: 1000;
+    margin: 15px 0px;
+}
+
+.whatsapp-icon i {
+    font-size: 24px;
+}
+.ProductsBulb{
+    height: 350px;
+}
+.ProductsBulb img{
+    height: 100%;
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #06BBCC;
@@ -169,7 +192,7 @@
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
-        min-height: 500px;
+        min-height: 320px;
     }
 
     .header-carousel .owl-carousel-item img {
@@ -177,6 +200,15 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .sliderText {
+        display: none;
+    }
+
+    .header-carousel .owl-nav .owl-prev,
+    .header-carousel .owl-nav .owl-next {
+        display: none !important;
     }
 }
 
