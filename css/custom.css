@@ -1,0 +1,11 @@
+.small-table {
+    font-size: 12px;
+}
+
+.small-table th, .small-table td {
+    padding: 8px; /* Adjust as needed for spacing */
+}
+.pcbUnit>img{
+    height: 200px;
+    border: 3px solid black;
+}
