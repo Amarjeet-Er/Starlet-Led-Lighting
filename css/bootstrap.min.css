@@ -4784,7 +4784,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.55);
-    border-color: rgba(0, 0, 0, 0.1)
+    /* border-color: rgba(0, 0, 0, 0.1) */
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -4855,8 +4855,8 @@ fieldset:disabled .btn {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0px
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card>hr {
@@ -8381,6 +8381,9 @@ fieldset:disabled .btn {
 .bg-primary {
     background-color: #06BBCC !important
 }
+.bg-primary-custom {
+    background-color: #06BBCC !important
+}
 
 .bg-secondary {
     background-color: #6c757d !important
@@ -8405,6 +8408,10 @@ fieldset:disabled .btn {
 .bg-light {
     background-color: #F0FBFC !important
 }
+.bg-light-custom {
+    background-color: #aec8ca !important;
+}
+
 
 .bg-dark {
     background-color: #181d38 !important
